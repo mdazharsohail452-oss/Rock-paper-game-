@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: #0d0d0e;
+}
+
+h1 {
+  background-color: #081b31;
+  color: #47d492;
+  height: 5rem;
+  line-height: 5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #10af1d;
+}
+
+.choice.clicked {
+  transform: scale(0.95);
+  box-shadow: 0 0 10px #555;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+#user-score,
+#comp-score{
+  font-size: 4rem;
+  color: #3e9dc0;
+}
+p{
+  color: white;
+}
+
+.msg-container {
+  margin-top: 5rem;
+}
+
+#msg {
+  background-color: #081b31;
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#new-game-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #47d492;
+  color: #081b31;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: none; /* hidden by default */
+}
+
+#new-game-btn:hover {
+  background-color: #36b882;
+}
