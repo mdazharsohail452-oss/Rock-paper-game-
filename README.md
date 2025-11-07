@@ -37,6 +37,4 @@ he first to 3 points (out of possible 5 rounds) wins the match.​
 
 If a round is tied, replay until there is a winner for that round.
 
-The first to 3 points (out of possible 5 rounds) wins the match.​
-
 If a round is tied, replay until there is a winner for that round
